@@ -1,0 +1,45 @@
+/* DEVELOP TESTING ONLY */
+
+/* Show Grid */
+.show-grid {
+    /*margin-bottom: 20px;*/
+    /*margin-top: 10px;*/
+}
+.show-grid [class*="col"] {
+    border-radius: 3px 3px 3px 3px;
+    line-height: 40px;
+    min-height: 40px;
+    text-align: center;
+		border:4px solid #fff;
+		box-shadow: inset 0 0 0 1px #ebebeb;
+		background: #f9f9f9;
+}
+
+/* Show Widgets on hover */
+#main .widget {
+border: 1px solid transparent;
+position: relative;
+}
+#main .widget:hover {
+	border: 1px solid #ebebeb;
+}
+#main .widget:before,
+#main .widget:after {
+	font: 13px 'FontAwesome';
+	position: absolute;
+	color: #ebebeb;
+}
+#main .widget:hover:before {
+	content: "\f053";
+	top: 10px;
+	left: 10px;
+}
+#main .widget:hover:after {
+	content: "\f054";
+	top: 10px;
+	left: 30px;
+}
+
+/* END TESTING */
+
+

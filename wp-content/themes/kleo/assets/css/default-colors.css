@@ -1,0 +1,103 @@
+
+
+
+.header-color {}
+.main-color {}
+.alternate-color {}
+.footer-color {}
+.socket-color {}
+
+.alternate-color .show-grid [class*="col"] {
+    border-radius: 3px 3px 3px 3px;
+    /*line-height: 40px;*/
+    /*min-height: 50px;*/
+		padding: 12px 4px;
+    text-align: center;
+		border: 4px solid #f7f7f7;
+		box-shadow: inset 0 0 0 1px #ebebeb;
+		background: #fff;
+}
+
+
+/*.main-color {}
+.main-color .highlight {}
+.main-color .highlight:hover {}
+
+.alternate-color {}
+.alternate-color .highlight {}
+.alternate-color .highlight:hover {}
+
+.footer-color {}
+#footer .highlight {}
+#footer .highlight:hover {}*/
+
+
+/* -----------------------------------------
+   02. Main colors
+----------------------------------------- */
+
+/* Main Content background color - Default Background color */
+.main-color {
+	background-color: #fff;
+	color: #777;
+}
+
+/* Alternate Background color -Alternate Background for menu hover, tables, etc. */
+.main-color {}
+
+/* Primary color - Font color for links, dropcaps and other elements */
+.main-color a {
+  color: #00c5c4;
+}
+
+/* Highlight color - Secondary color for link and button hover, etc. */
+.main-color a:hover {
+  color: #000;
+	text-decoration: underline;
+}
+
+/* Main Content font color */
+.main-color {}
+
+/* Border colors */
+.main-color.container-wrap,
+.main-color .template-page,
+.main-color .sidebar-right,
+.main-color .sidebar-left,
+.main-color .navbar,
+.main-color .hr-inner,
+.main-color .testimonial-image img,
+.main-color #top-social li a,
+.main-color #kleo-quick-contact,
+.main-color #kleo-quick-contact .bottom-arrow,
+.main-color .list-divider li,
+.main-color .tooltip-inner,
+.main-color .callout-blockquote blockquote {
+	border-color: #e5e5e5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
